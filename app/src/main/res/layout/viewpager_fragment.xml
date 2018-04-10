@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="SEMUA ORANG BISA BETERNAK"
+        android:textColor="#fafafa"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="Kelola keuangan anda dengan
+instrumen investasi yang terjangkau
+dan rendah resiko"
+        android:textColor="#fafafa"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:id="@+id/textView3" />
+
+</RelativeLayout>
