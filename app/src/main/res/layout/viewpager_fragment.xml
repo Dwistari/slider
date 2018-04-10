@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:background="@android:color/black">
 
-
     <TextView
         android:id="@+id/text2"
         android:layout_width="wrap_content"
@@ -18,19 +17,19 @@
         android:textStyle="normal" />
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/text2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="14dp"
-        android:gravity="center"
         android:fontFamily="sans-serif"
+        android:gravity="center"
         android:text="Kelola keuangan anda dengan
 instrumen investasi yang terjangkau
 dan rendah resiko"
         android:textColor="#fafafa"
         android:textSize="12sp"
-        android:textStyle="normal"
-        android:id="@+id/textView3" />
+        android:textStyle="normal" />
 
 </RelativeLayout>
